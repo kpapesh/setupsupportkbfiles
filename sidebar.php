@@ -29,13 +29,13 @@
                     echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> ';
               }?>
               <hr color="#eee">
-              <h4>Tag Cloud</h4>
-              <ul>
-              <?php wp_tag_cloud('hide_empty=0'); ?>
-              <hr color="#eee">
               <h4>Categories</h4>
               <ul>
               <?php wp_list_categories('title_li=&hide_empty=0'); ?>
+	      <hr color="#eee">
+              <h4>Tag Cloud</h4>
+              <ul>
+              <?php wp_tag_cloud('hide_empty=0'); ?>
               <hr color="#eee">
 <?php } ?>
 </ul>
