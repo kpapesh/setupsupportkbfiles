@@ -28,6 +28,7 @@
               foreach( $recent_posts as $recent ){
                     echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> ';
               }?>
+	      <br>
               <hr color="#eee">
               <h4>Categories</h4>
               <ul>
